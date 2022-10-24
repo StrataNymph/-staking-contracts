@@ -1,1 +1,1 @@
-# -staking-contracts
+# staking-contracts
