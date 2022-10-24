@@ -1,1 +1,2 @@
+Strata network
 # staking-contracts
