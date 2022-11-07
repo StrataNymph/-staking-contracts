@@ -1,0 +1,369 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/devel-nithiya/Strata_Defi/contracts/wbnb.sol": {
+      "lastModificationDate": 1643347460185,
+      "contentHash": "f38e90af9157155c1e8bd626d6885c3e",
+      "sourceName": "contracts/wbnb.sol",
+      "solcConfig": {
+        "version": "0.4.22",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.18"
+      ],
+      "artifacts": [
+        "WBNB"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/factory.sol": {
+      "lastModificationDate": 1643347475973,
+      "contentHash": "eff705b68f73acbedebf3e5efcd36103",
+      "sourceName": "contracts/factory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IProtocolsCallee",
+        "IProtocolsERC20",
+        "IProtocolsFactory",
+        "IProtocolsPair",
+        "Math",
+        "ProtocolsERC20",
+        "ProtocolsFactory",
+        "ProtocolsPair",
+        "SafeMath",
+        "UQ112x112"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/tokenA.sol": {
+      "lastModificationDate": 1643354440844,
+      "contentHash": "22038cfa8004ee773f6cddf558aa5799",
+      "sourceName": "contracts/tokenA.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "TokenA"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/tokenC.sol": {
+      "lastModificationDate": 1643354462891,
+      "contentHash": "90cac48bc375d8e5e348977fdb098898",
+      "sourceName": "contracts/tokenC.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "TokenC"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/router.sol": {
+      "lastModificationDate": 1643354828694,
+      "contentHash": "7e47941fe63e08b7dddae41414b7b92b",
+      "sourceName": "contracts/router.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0",
+        ">=0.6.2",
+        ">=0.6.2",
+        ">=0.5.0",
+        "=0.6.6",
+        ">=0.5.0",
+        ">=0.5.0",
+        ">=0.5.0",
+        ">=0.5.0",
+        "=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IProtocolsFactory",
+        "IProtocolsPair",
+        "IProtocolsRouter01",
+        "IProtocolsRouter02",
+        "IWETH",
+        "ProtocolsLibrary",
+        "ProtocolsRouter",
+        "SafeMath",
+        "TransferHelper"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/cake.sol": {
+      "lastModificationDate": 1643367923855,
+      "contentHash": "6930ec322c112e68036dcc36982bb8b7",
+      "sourceName": "contracts/cake.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Address",
+        "BEP20",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "ProtocolsToken",
+        "SafeMath"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/masterchef.sol": {
+      "lastModificationDate": 1643368365054,
+      "contentHash": "5475ec06e5bcf7e0386cda09f2949121",
+      "sourceName": "contracts/masterchef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./syrup.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IMigratorChef",
+        "MasterChef",
+        "SafeBEP20"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/smartchef.sol": {
+      "lastModificationDate": 1643347527181,
+      "contentHash": "069f245e3ce712291ffdff90663599b1",
+      "sourceName": "contracts/smartchef.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.4.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.0 <0.8.0",
+        ">=0.6.2 <0.8.0",
+        "^0.6.0",
+        "0.6.12",
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Address",
+        "Context",
+        "IBEP20",
+        "Ownable",
+        "ReentrancyGuard",
+        "SafeBEP20",
+        "SafeMath",
+        "SmartChefFactory",
+        "SmartChefInitializable"
+      ]
+    },
+    "/home/devel-nithiya/Strata_Defi/contracts/syrup.sol": {
+      "lastModificationDate": 1643368228746,
+      "contentHash": "623d41380b5e5d764afe7cec7761821c",
+      "sourceName": "contracts/syrup.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./cake.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SyrupBar"
+      ]
+    }
+  }
+}
